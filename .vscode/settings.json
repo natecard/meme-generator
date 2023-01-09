@@ -6,7 +6,14 @@
   "tailwindCSS.includeLanguages": {
     "plaintext": "html"
   },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.colorDecorators": true,
+  "tailwindCSS.suggestions": true,
   "editor.quickSuggestions": {
     "strings": true
-  }
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"]
 }
